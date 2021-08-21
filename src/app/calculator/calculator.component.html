@@ -1,0 +1,18 @@
+<h1>Welcome to calculator</h1>
+<div class="container">
+    <div class="card-header">Calculator</div>
+    <div class="card-body">
+        <div class="form-group">
+            <input [(ngModel)]='num1' type="number" name="num1" placeholder="Enter number" class="form-control">
+            <input [(ngModel)]='num2' type="number" name="num2" placeholder="Enter number" class="form-control">
+        </div>
+        <div class="buttons">
+            <button class="btn" (click)="sum()">SUM</button>
+            <button class="btn1" (click)="mul()">MULTIPLY</button>
+            <button class="btn2" (click)="divi()">DIVISION</button>
+            <button class="btn3" (click)="diff()">SUBTRACT</button>
+        </div>
+        <div class="footer">
+            <h2>The result is &nbsp;<button class="result">{{result}}</button></h2> 
+        </div>
+</div>

@@ -1,0 +1,95 @@
+h1 {
+    margin-left: 35%;
+}
+
+.card-header {
+    background-image: url('src\assets\img\cal1.jpg');
+    text-align: center;
+    font-style: oblique;
+    font-size: 50px;
+    border-radius: 10px;
+  }
+
+  input[type="number"] {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+
+.btn {
+ background-color: green;
+ color: white;
+ padding: 16px 32px;
+ border-radius: 10px;
+ margin-top: 10px;
+ margin: 20px;
+ margin-left: 80px;
+}
+
+.btn1 {
+    background-color: rgb(206, 108, 17);
+    color: white;
+    padding: 16px 32px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: 20px;
+    margin-left: 80px;
+   }
+   .btn2 {
+    background-color: blue;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: 20px;
+    margin-left: 80px;
+   }
+   .btn3 {
+    background-color: red;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: 20px;
+    margin-left: 80px;
+   }
+         
+.buttons {
+    margin: 10px;
+}
+
+.footer {
+    box-sizing: content-box;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px 20px;
+    background-image: url('src\assets\img\cal1.jpg');
+    font-weight: inherit;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.container {
+    margin-left: 15%;
+    background-image: url('src\assets\img\cal2.jpg');
+    background-size: 100% 100vh;
+    max-height: fit-content;
+    max-width: fit-content;
+    border-radius: 10px;
+}
+
+.result {
+    padding: 16px 32px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+
